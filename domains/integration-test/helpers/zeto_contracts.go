@@ -37,7 +37,7 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-//go:embed abis/ZetoFactory.json
+// go:embed abis/ZetoFactory.json
 var zetoFactoryJSON []byte
 
 type ZetoDomainConfig struct {

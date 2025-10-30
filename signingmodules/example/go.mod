@@ -14,6 +14,7 @@ require (
 
 require (
 	github.com/Code-Hex/go-generics-cache v1.5.1 // indirect
+	github.com/LF-Decentralized-Trust-labs/paladin/sdk/go v0.0.0-20250828150332-fbc1c1bc663b // indirect
 	github.com/aidarkhanov/nanoid v1.0.8 // indirect
 	github.com/btcsuite/btcd v0.24.2 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
@@ -25,7 +26,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hyperledger/firefly-common v1.5.4 // indirect
 	github.com/hyperledger/firefly-signer v1.1.21 // indirect
-	github.com/LF-Decentralized-Trust-labs/paladin/sdk/go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect

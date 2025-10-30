@@ -1,0 +1,12 @@
+{
+  "privacyGroupId": "0x6b10a50fb60de44bc5050d59856fb6b6e919f8dfe91d33571c5d207a7bded611",
+  "contractAddress": "0x6eb0833690f1725e91ed853d6e32de32a4084ac9",
+  "storedValue": 125,
+  "retrievedValueNode1": "125",
+  "retrievedValueNode2": "125",
+  "storeTransactionHash": "0x9aaf46f7478ab246a6681135503efb94d6f0daa3272b8466cbbab730b5060c27",
+  "node1Verifier": "member@node1",
+  "node2Verifier": "member@node2",
+  "node3Verifier": "outsider@node3",
+  "timestamp": "2025-10-28T09:04:02.120Z"
+}

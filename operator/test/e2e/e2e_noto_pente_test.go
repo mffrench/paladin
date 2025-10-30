@@ -45,10 +45,10 @@ import (
 	"github.com/LF-Decentralized-Trust-labs/paladin/toolkit/pkg/verifiers"
 )
 
-//go:embed abis/ERC20Simple.json
+// go:embed abis/ERC20Simple.json
 var ERC20SimpleBuildJSON []byte
 
-//go:embed abis/NotoTrackerERC20.json
+// go:embed abis/NotoTrackerERC20.json
 var NotoTrackerERC20BuildJSON []byte
 
 const node1HttpURL = "http://127.0.0.1:31548"

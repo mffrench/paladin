@@ -97,9 +97,9 @@ type TxBuilder interface {
 	DataFormat(format pldtypes.JSONFormatOptions) TxBuilder // determines how JSON will be sent/received to/from the server as serialized JSON
 	GetDataFormat() pldtypes.JSONFormatOptions
 
-	Clone() TxBuilder                           // creates a copy that is useful as a way to create a common reference builder for multiple calls
-	Wrap(*pldapi.TransactionInput) TxBuilder    // initializes a TxBuilder from an existing transaction, including setting the inputs to be the Data from the TX
-	WrapCall(*pldapi.TransactionCall) TxBuilder // initializes a TxBuilder from an existing call, including setting the inputs to be the Data from the TX
+	Clone() TxBuilder                                                      // creates a copy that is useful as a way to create a common reference builder for multiple calls
+	Wrap(*pldapi.TransactionInput) TxBuilder                               // initializes a TxBuilder from an existing transaction, including setting the inputs to be the Data from the TX
+	WrapCall(*pldapi.TransactionCall) TxBuilder                            // initializes a TxBuilder from an existing call, including setting the inputs to be the Data from the TX
 
 	ResolveDefinition() (*abi.Entry, error)                                // resolves the function/constructor client-side against the ABI and returns the full definition
 	BuildCallData() (callData pldtypes.HexBytes, err error)                // builds binary call data, useful for various low level functions on ABI

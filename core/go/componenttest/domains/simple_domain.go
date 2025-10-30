@@ -45,10 +45,10 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-//go:embed abis/SimpleDomain.json
+// go:embed abis/SimpleDomain.json
 var simpleDomainBuild []byte // comes from Hardhat build
 
-//go:embed abis/SimpleToken.json
+// go:embed abis/SimpleToken.json
 var simpleTokenBuild []byte // comes from Hardhat build
 
 const (

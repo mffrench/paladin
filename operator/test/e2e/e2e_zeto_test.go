@@ -39,7 +39,7 @@ import (
 	"github.com/LF-Decentralized-Trust-labs/paladin/toolkit/pkg/verifiers"
 )
 
-//go:embed abis/zeto/Zeto_Anon.json
+// go:embed abis/zeto/Zeto_Anon.json
 var zetoAnonBuildJSON []byte
 
 const tokenType = "Zeto_Anon"

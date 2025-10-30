@@ -18,4 +18,9 @@ use (
 	./testinfra
 	./toolkit/go
 	./transports/grpc
+	./examples/common-go
+	./examples/helloworld-go/cmd
+	./examples/public-storage-go/cmd
+	./examples/privacy-storage-go/cmd
+	./examples/zeto-go/cmd
 )

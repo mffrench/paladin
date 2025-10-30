@@ -31,7 +31,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-//go:embed abis/Swap.json
+// go:embed abis/Swap.json
 var SwapJSON []byte
 
 type SwapHelper struct {

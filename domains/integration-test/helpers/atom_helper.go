@@ -31,10 +31,10 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-//go:embed abis/AtomFactory.json
+// go:embed abis/AtomFactory.json
 var AtomFactoryJSON []byte
 
-//go:embed abis/Atom.json
+// go:embed abis/Atom.json
 var AtomJSON []byte
 
 type AtomFactoryHelper struct {

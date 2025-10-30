@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-//go:embed abis/NotoFactory.json
+// go:embed abis/NotoFactory.json
 var NotoFactoryJSON []byte
 
-//go:embed abis/INoto.json
+// go:embed abis/INoto.json
 var NotoInterfaceJSON []byte
 
 type NotoHelper struct {

@@ -33,13 +33,13 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-//go:embed abis/SampleERC20.json
+// go:embed abis/SampleERC20.json
 var erc20ABI []byte
 
-//go:embed abis/Zeto_Anon.json
+// go:embed abis/Zeto_Anon.json
 var ZetoAnonABIJSON []byte
 
-//go:embed abis/Zeto_AnonNullifierKyc.json
+// go:embed abis/Zeto_AnonNullifierKyc.json
 var ZetoAnonNullifierKycABIJSON []byte
 
 type ZetoHelper struct {

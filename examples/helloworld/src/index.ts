@@ -32,6 +32,7 @@ async function main(): Promise<boolean> {
   logger.log("Initializing Paladin client from the environment configuration...");
   const paladin = new PaladinClient(nodeConnections[0].clientOptions);
   const [owner] = paladin.getVerifiers(`owner@${nodeConnections[0].id}`);
+  logger.warn(`verifier: ${owner}`)
 
   // Retrieve the verifier for the owner account
 

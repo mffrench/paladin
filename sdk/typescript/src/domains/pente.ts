@@ -151,7 +151,8 @@ export class PentePrivacyGroup {
     const constructor: ethers.JsonFragment = params.abi.find(
       (entry) => entry.type === "constructor"
     ) || { type: "constructor", inputs: [] };
-
+    console.error(`>>>> deploy smart contract from abi: ${params.abi}`)
+    console.error(`>>>> deploy smart contract with function: ${constructor}`)
     const transaction: IPrivacyGroupEVMTXInput = {
       ...txOptions,
       domain: this.group.domain,

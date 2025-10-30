@@ -29,7 +29,7 @@ import (
 	"github.com/LF-Decentralized-Trust-labs/paladin/toolkit/pkg/prototk"
 )
 
-//go:embed abis/IdentityRegistry.json
+// go:embed abis/IdentityRegistry.json
 var identityRegistryJSON []byte
 
 var contractDetail = mustLoadIdentityRegistryContractDetail(identityRegistryJSON)

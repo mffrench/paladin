@@ -9,7 +9,7 @@ require (
 	github.com/LF-Decentralized-Trust-labs/paladin/config v0.0.0-00010101000000-000000000000
 	github.com/LF-Decentralized-Trust-labs/paladin/domains/noto v0.0.0-00010101000000-000000000000
 	github.com/LF-Decentralized-Trust-labs/paladin/domains/zeto v0.0.0-00010101000000-000000000000
-	github.com/LF-Decentralized-Trust-labs/paladin/sdk/go v0.0.0-00010101000000-000000000000
+	github.com/LF-Decentralized-Trust-labs/paladin/sdk/go v0.0.0-20250828150332-fbc1c1bc663b
 	github.com/LF-Decentralized-Trust-labs/paladin/testinfra v0.0.0-00010101000000-000000000000
 	github.com/LF-Decentralized-Trust-labs/paladin/toolkit v0.0.0-00010101000000-000000000000
 	github.com/Masterminds/sprig/v3 v3.3.0

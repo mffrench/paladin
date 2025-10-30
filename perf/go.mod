@@ -5,9 +5,9 @@ go 1.24.0
 toolchain go1.24.3
 
 require (
-	github.com/go-resty/resty/v2 v2.14.0
 	github.com/LF-Decentralized-Trust-labs/paladin/config v0.0.0-00010101000000-000000000000
 	github.com/LF-Decentralized-Trust-labs/paladin/sdk/go v0.0.0-00010101000000-000000000000
+	github.com/go-resty/resty/v2 v2.14.0
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.19.1
 	github.com/prometheus/client_model v0.6.1
@@ -19,9 +19,9 @@ require (
 )
 
 require (
+	github.com/LF-Decentralized-Trust-labs/paladin/common/go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/hyperledger/firefly-common v1.5.4 // indirect
 	github.com/hyperledger/firefly-signer v1.1.21 // indirect
-	github.com/LF-Decentralized-Trust-labs/paladin/common/go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 )
 

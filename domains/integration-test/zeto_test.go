@@ -28,7 +28,7 @@ import (
 	"github.com/stretchr/testify/suite"
 )
 
-//go:embed helpers/abis/Zeto_Anon.json
+// go:embed helpers/abis/Zeto_Anon.json
 var zetoAnonAbi []byte
 
 var (
